@@ -29,7 +29,11 @@ a:hover {
   color: #118C4E;
 }
 
-h1,
+h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 h2,
 h3,
 h4,
@@ -48,6 +52,11 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.shadow-message {
+  color: rgba(255, 255, 255, 1);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 section {
